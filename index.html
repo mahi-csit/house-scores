@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houses Points</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Houses Points</h1>
+    <div class="container">
+        <div class="house">
+            <h2>Prudhvi</h2>
+            <p>Points: <span id="points-Prudhvi">0</span></p>
+            <button onclick="addPoints('Prudhvi')">Add Point</button>
+            <button onclick="reducePoints('Prudhvi')">Reduce Point</button>
+        </div>
+        <div class="house">
+            <h2>Jal</h2>
+            <p>Points: <span id="points-Jal">0</span></p>
+            <button onclick="addPoints('Jal')">Add Point</button>
+            <button onclick="reducePoints('Jal')">Reduce Point</button>
+        </div>
+        <div class="house">
+            <h2>Akaash</h2>
+            <p>Points: <span id="points-Akaash">0</span></p>
+            <button onclick="addPoints('Akaash')">Add Point</button>
+            <button onclick="reducePoints('Akaash')">Reduce Point</button>
+        </div>
+        <div class="house">
+            <h2>Agni</h2>
+            <p>Points: <span id="points-Agni">0</span></p>
+            <button onclick="addPoints('Agni')">Add Point</button>
+            <button onclick="reducePoints('Agni')">Reduce Point</button>
+        </div>
+        <div class="house">
+            <h2>Vayu</h2>
+            <p>Points: <span id="points-Vayu">0</span></p>
+            <button onclick="addPoints('Vayu')">Add Point</button>
+            <button onclick="reducePoints('Vayu')">Reduce Point</button>
+        </div>
+    </div>
+    <div class="highscore">
+        <h2>High Score Board</h2>
+        <ol id="highscore-list">
+            <li>Prudhvi: <span id="highscore-house1">0</span></li>
+            <li>Jal: <span id="highscore-house2">0</span></li>
+            <li>Akaash: <span id="highscore-house3">0</span></li>
+            <li>Agni: <span id="highscore-house4">0</span></li>
+            <li>Vayu: <span id="highscore-house5">0</span></li>
+        </ol>
+    </div>
+    <button onclick="resetScores()">Reset Scores</button>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

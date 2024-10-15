@@ -1,7 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
+    background-image: url(https://i.pinimg.com/originals/bc/12/6b/bc126b425fb31e61f07707154c24a6f8.jpg);
     background-color: #f0f0f0;
-    color: #333;
+    color: white;
     text-align: center;
     margin: 0;
     padding: 20px;
@@ -23,11 +24,60 @@ h1 {
     align-items: center;
 }
 
-.house {
+.house1 {
     margin: 20px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
+    background-image: url(https://th.bing.com/th/id/OIP.ltvmni-ddT83-BjXfnN8PQHaEK?rs=1&pid=ImgDetMain);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+.house2 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: url(https://th.bing.com/th?id=OIP.TeHBS2QRvjkPnh0jVJNjugHaHU&w=251&h=248&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+.house3 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: url(https://th.bing.com/th/id/OIP.w7VdlbMOCyv2rZC1lhED4gHaEK?w=291&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+.house4 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: url(https://static.turbosquid.com/Preview/2014/08/01__18_23_50/8-16-2008+fire+flames.JPG505c3bc9-db26-4f30-a5a1-418d4f18fdc8Original.jpg);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+.house5 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: url(https://th.bing.com/th/id/OIP.ChihPmbO6-QVFGR0EgMNVwHaJQ?rs=1&pid=ImgDetMain);
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: inline-block;
@@ -36,7 +86,7 @@ h1 {
 }
 
 .house h2 {
-    color: #4CAF50;
+    color: #f7f9f7;
     margin-bottom: 10px;
 }
 
@@ -45,6 +95,7 @@ h1 {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
+    background-image: url(https://i.pinimg.com/originals/bc/12/6b/bc126b425fb31e61f07707154c24a6f8.jpg);
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 250px;
@@ -52,7 +103,7 @@ h1 {
 }
 
 .highscore h2 {
-    color: #4CAF50;
+    color: #fbfcfb;
     margin-bottom: 10px;
 }
 
@@ -72,5 +123,5 @@ button:hover {
 }
 
 h1, h2 {
-    color: #333;
+    color: #faf7f7;
 }
